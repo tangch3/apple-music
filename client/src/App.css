@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.song-row {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
