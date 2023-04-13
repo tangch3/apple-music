@@ -5,11 +5,11 @@
   "name": "apple-music",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "client": "cd client && npm start",
-    "server": "cd server && npm start",
-    "start": "concurrently \"npm run server\" \"npm run client\""
+    "client": "cd client && npm install && npm start",
+    "server": "cd server && npm install && npm start",
+    "start": "npm install concurrently && concurrently \"npm run server\" \"npm run client\"",
+    "test": "cd server && cd test && npx mocha"
   },
   "keywords": [],
   "author": "",
