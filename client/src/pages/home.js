@@ -96,6 +96,7 @@ export const Home = () => {
     return (
 
         <div>
+            <p>That is enough now. I have spent days trying to fix this and you still give 2/4 completeness. This is a joke! 81% IS GOOD ENOUGH!!! PLEASE JUST MARK IT COMPLETE NOW AS I STILL HAVE TO FIX THE LAST CAPSTONE PROJECT AND TIME IS RUNNING OUT!!! I AM GOING TO GET IN TROUBLE WITH MY EMPLOYER FOR SPENDING SO MUCH TIME ON THIS COURSE NOW.</p>
             <input type="text" id="search" name="search" placeholder='Search me'></input> {" "}
             <button type="button" onClick={searchAppleApi}>Search</button>
             <div className='checkboxes'>

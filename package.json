@@ -9,7 +9,8 @@
     "client": "cd client && npm install && npm start",
     "server": "cd server && npm install && npm start",
     "start": "npm install concurrently && concurrently \"npm run server\" \"npm run client\"",
-    "test": "cd server && cd test && npx mocha"
+    "test-server": "cd server && npx mocha",
+    "test": "cd server && npx mocha"
   },
   "keywords": [],
   "author": "",
