@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "concurrently": "^8.0.1"
+    "concurrently": "^8.0.1",
+    "react-test-renderer": "^18.2.0"
   },
   "name": "apple-music",
   "version": "1.0.0",

@@ -1,1 +1,3 @@
 https://github.com/tangch3/apple-music.git
+
+Link to Heroic app: https://applemusicapi.herokuapp.com
