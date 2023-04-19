@@ -1,4 +1,4 @@
-# Apple Music Web APp\
+# Apple Music Web App
 
 ## Description
 
