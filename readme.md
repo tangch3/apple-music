@@ -9,13 +9,27 @@ This project is a full-stack web application that utilizes ReactJS for the front
 The application has been deployed at https://applemusicapi.herokuapp.com. To install the project, first create a folder to store all files. Then, in the terminal or command prompt, navigate to the project's directory by typing "cd" and the folder name.
 
 ## Installation
-To install all modules simply type in npm start and it will install everything for you and launch the application.
+To install all modules simply type in:
+
+```
+npm start
+```
+
+It will install everything for you and launch the application.
 
 ## Testing
 
 The backend and frontend is tested with Mocha and Chai.
 
 ### Front end testing
+
+The server must be live in order the tests to be passed otherwise it will throw a network error.
+
+Please ensure you have started the application by
+
+```
+npm start
+```
 
 cd into the client folder and run npm test
 
