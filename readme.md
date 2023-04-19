@@ -13,7 +13,33 @@ To install all modules simply type in npm start and it will install everything f
 
 ## Testing
 
-The backend is tested with Mocha and Chai, and the frontend is tested with Axios. To run the tests, navigate to the relevant directory in the command line and type "npm test".
+The backend and frontend is tested with Mocha and Chai.
+
+### Front end testing
+
+cd into the client folder and run npm test
+
+```
+cd client
+```
+
+```
+npm test
+```
+
+### Back end testing
+
+You have to kill the server by writing
+
+```
+killall node
+```
+
+Then navigate into the root of the project Apple Music
+
+```
+npm test
+```
 
 No API keys were used in this project to access the iTunes data. However, if they were used, an .env file would need to be created outside of the src folder and added to the .gitignore file for privacy concerns.
 
