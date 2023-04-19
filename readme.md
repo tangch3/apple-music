@@ -1,20 +1,13 @@
-How to use this app:
+This project is a full-stack web application that utilizes ReactJS for the frontend and Express for the backend. The iTunes API was used to retrieve data for the application. Users can search for specified media content and add or remove items to/from their list of favorites.
 
-This app allows you to search for any kind of media from the itunes api
-1. Type your search term into the search bar
-2. Click on what media you would like to search for:
-    e.g. Song, Album, Music Video, Podcast etc.
-3. Click search
-4. The application will load up all of the media you have searched for and you are able to save any of these to your saved Page
-5. You can also delete media you have saved by clicking the delete.
+The application has been deployed at https://applemusicapi.herokuapp.com. To install the project, first create a folder to store all files. Then, in the terminal or command prompt, navigate to the project's directory by typing "cd" and the folder name.
 
-Clear instructions that an end-user will be able to follow to install, test,
-and run your app on their local machine.
+To install all modules simply type in npm start and it will install everything for you and launch the application.
 
-1. To run type 'npm start'
-2. To test the application type 'npm test'
+The backend is tested with Mocha and Chai, and the frontend is tested with Axios. To run the tests, navigate to the relevant directory in the command line and type "npm test".
 
-A description of the measures you have taken to ensure the security of this app, including a description of how API keys have been dealt with.
+No API keys were used in this project to access the iTunes data. However, if they were used, an .env file would need to be created outside of the src folder and added to the .gitignore file for privacy concerns.
 
-Using helmet to set secure HTTP headers: helmet can help secure an application by setting HTTP headers that can protect against common web vulnerabilities. This can include headers such as X-XSS-Protection, X-Content-Type-Options, Strict-Transport-Security, X-Frame-Options, and more.
+The Navigation appears above the Searchbar. The user can navigate between the home page and their list of favorite media items, search for content, and add or remove items from their favorites list.
 
+When changes are made to project items, the server will restart and update these changes. This is because the Nodeman devDependency is installed. Changes made to the frontend of the application can be viewed at http://localhost:3000.

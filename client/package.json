@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/register": "^7.21.0"
+    "@babel/register": "^7.21.0",
+    "babel-jest": "^29.5.0"
   }
 }
